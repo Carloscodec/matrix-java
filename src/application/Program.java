@@ -23,10 +23,10 @@ public class Program {
 		
 		System.out.println();
 		System.out.print("Matrix: ");
-		for (int i = 0; i < n; i++) {
+		for (int[] lines : matrix) {
 			System.out.println();
-			for (int j = 0; j < m; j++) {
-				System.out.print(matrix[i][j] + " ");
+			for (int elements : lines) {
+				System.out.print(elements + " ");
 			}
 		}
 		
